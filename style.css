@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
+}
+
+ul,
+li {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  background-color: #fff;
+  height: 7vh;
+  align-items: center;
+}
+
+.start {
+  font-size: larger;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.user {
+  border: 2px solid;
+  border: none;
+  background-color: rgb(214, 238, 248);
+  border-radius: 6px;
+  color: rgb(50, 145, 183);
+  font-weight: bold;
+  width: 8vw;
+  margin-left: 10vw;
+}
+
+main {
+  display: flex;
+}
+
+img {
+  padding-top: 12vh;
+  width: 40vw;
+}
+article {
+  position: relative;
+  top: 1vh;
+  left: 2;
+}
+
+p {
+  font-size: 9em;
+  font-weight: bold;
+}
+span {
+  color: rgb(24, 91, 168);
+}
+aside {
+  font-size: 2em;
+  color: rgba(86, 87, 88, 0.598);
+  margin-top: 2vh;
+}
+button {
+  position: fixed;
+  bottom: 2vh;
+  left: 43vw;
+  width: 25%;
+  height: 8vh;
+  border-radius: 10px;
+  background-color: rgba(155, 36, 219, 0.617);
+  color: white;
+  border: none;
+  font-weight: bold;
+}
