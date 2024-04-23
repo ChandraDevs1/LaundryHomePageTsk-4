@@ -6,7 +6,7 @@
   background-color: aliceblue;
 }
 
-body{
+body {
   position: fixed;
 }
 
@@ -54,9 +54,11 @@ article {
 }
 
 p {
-  font-size: 9em;
+  font-size: 8em;
   font-weight: bold;
-  letter-spacing: 1px;
+  word-spacing: 20px;
+  margin-top: 2vh;
+  margin-left: 3vw;
 }
 span {
   color: rgb(24, 91, 168);
@@ -64,19 +66,22 @@ span {
 aside {
   font-size: 32px;
   color: rgba(86, 87, 88, 0.598);
+  word-spacing: 6.5px;
   margin-top: 2vh;
+  margin-left: 3vw;
 }
 
 button {
   position: relative;
   top: 2vh;
   left: 1vw;
-  width: 25%;
+  width: 55%;
   height: 8vh;
   border-radius: 10px;
-  background-color: rgba(155, 36, 219, 0.617);
-  color: white;
+  background-color: rgb(157, 55, 212);
+  color: rgb(228, 225, 225);
   border: none;
+  font-size: larger;
   font-weight: bold;
 }
 
