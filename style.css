@@ -57,7 +57,7 @@ p {
   font-size: 5em;
   font-weight: bold;
   word-spacing: 20px;
-  margin-top: 3.7vh;
+  margin-top: 10vh;
   margin-left: 3vw;
 }
 span {
@@ -67,15 +67,15 @@ aside {
   font-size: 32px;
   color: rgba(86, 87, 88, 0.598);
   word-spacing: 6.5px;
-  margin-top: 2vh;
+  margin-top: 5vh;
   margin-left: 3vw;
 }
 
 button {
   position: relative;
-  top: 2vh;
+  top: 4vh;
   left: 1vw;
-  width: 60%;
+  width: 55%;
   height: 8vh;
   border-radius: 10px;
   background-color: rgb(157, 55, 212);
